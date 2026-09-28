@@ -7,9 +7,6 @@
 	"authors": [
 		"krash"
 	],
-	"contact": {
-		"sources": "https://github.com/krash/2drendermcplus"
-	},
 	"license": "CC0-1.0",
 	"icon": "assets/modid/icon.png",
 	"environment": "*",
