@@ -13,5 +13,5 @@ plugins {
 	id 'org.gradle.toolchains.foojay-resolver-convention' version '0.9.0'
 }
 
-// Should match your modid
-rootProject.name = 'modid'
+// Should match your project / mod name
+rootProject.name = 'MRU'
