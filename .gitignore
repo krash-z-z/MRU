@@ -1,39 +1,59 @@
-# gradle
-
+# Gradle & Loom Build Artifacts
 .gradle/
 build/
 out/
+bin/
 classes/
+.loom/
+.fabric/
 
-# eclipse
+# Minecraft & Fabric Run Environments
+run/
+runClient/
+runServer/
+runData/
+*.log
+logs/
+crash-reports/
+saves/
+screenshots/
+resourcepacks/
+shaderpacks/
+mods/
+options.txt
+usercache.json
+usernamecache.json
+realms_persistence.json
+hotbar.nbt
+command_history.txt
 
-*.launch
-
-# idea
-
+# JetBrains IDEA
 .idea/
 *.iml
-*.ipr
 *.iws
+*.ipr
+out/
 
-# vscode
-
-.settings/
+# Visual Studio Code
 .vscode/
-bin/
+.settings/
 .classpath
 .project
 
-# macos
+# Eclipse
+*.launch
+*.prefs
 
-*.DS_Store
+# OS & Temp Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
 
-# fabric
-
-run/
-
-# java
-
+# Java / JVM Crash Dumps & Profiler
 hs_err_*.log
 replay_*.log
 *.hprof

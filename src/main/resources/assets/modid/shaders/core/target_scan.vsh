@@ -1,0 +1,22 @@
+#version 330
+
+#moj_import <minecraft:dynamictransforms.glsl>
+#moj_import <minecraft:projection.glsl>
+
+in vec3 Position;
+in vec4 Color;
+in vec2 UV0;
+in ivec2 UV1;
+in ivec2 UV2;
+in vec3 Normal;
+
+out vec2 scanUv;
+out vec3 scanPosition;
+out vec3 scanViewNormal;
+
+void main() {
+    gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
+    scanUv = UV0;
+    scanPosition = Position;
+    scanViewNormal = normalize(mat3(ModelViewMat) * Normal);
+}

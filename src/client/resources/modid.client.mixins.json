@@ -3,7 +3,12 @@
 	"package": "com.example.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"ExampleClientMixin"
+		"ExampleClientMixin",
+		"HudMixin",
+		"GuiRendererMixin",
+		"GameRendererMixin",
+		"KeyboardHandlerMixin",
+		"MouseHandlerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
